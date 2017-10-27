@@ -387,6 +387,8 @@ extends EmptyClass {
 
     /**
      * TODO: Make #isOverriddenBy(...) fully compatible to JLS 8, Sec. 8.4.8.1. 'Overriding (by Instance Methods)'
+     *
+     * @see https://docs.oracle.com/javase/8/docs/api/javax/lang/model/util/Elements.html#overrides-javax.lang.model.element.ExecutableElement-javax.lang.model.element.ExecutableElement-javax.lang.model.element.TypeElement-
      */
     @Ignore("TODO: Make #isOverriddenBy(...) fully compatible to JLS 8, Sec. 8.4.8.1. 'Overriding (by Instance Methods)'")
     @Test
